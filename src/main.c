@@ -34,7 +34,7 @@ int main(int argc, char **argv) {
 
     const char *shapes[] = {"무작위", "정렬됨", "역순", "중복많음"};
     size_t shapesCount = 4;
-    size_t testN = 10000;
+    size_t testN = 4000;
 
     if (csvMode) {
         printf("Algorithm,Shape,N,TimeMs,Compares,Moves,ExtraBytes,MaxDepth,StableReal\n");
